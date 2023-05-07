@@ -1,0 +1,48 @@
+<div class="container">
+
+  <div class="row my-5">
+    <div class="col-sm-5">
+      <img src="/{{logoImagePath}}" alt="Logo" class="w-100" />
+    </div>
+
+    <div class="col-sm-7">
+      <div class="border h-100 vertical-center">
+        <h2 class="text-center">Log in to your <b>Career Crusader</b> community! Find and post real jobs by real people, not bots.</h2>
+
+        <form action="/submit" method="POST">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Username" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Password" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Re-enter Password" required>
+            </div>
+            
+            <div class="mb-3">
+                <label>
+                    <input type="checkbox" required>
+                    I agree to the terms &amp; conditions.
+                </label>
+            </div>
+
+            <div class="mb-3">
+                <label>
+                    <input type="checkbox" required>
+                    I have read &amp; agreed to community guidelines.
+                </label>
+            </div>
+
+            <div class="mb-3 text-center">
+                <input type="submit" class="btn btn-yellow px-5">
+            </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

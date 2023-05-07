@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border{
+    border: 5px solid #EEC34B !important;
+    border-radius: 3.5rem;
+    background-color: #e3e3e3;
+    padding: 1.75rem;
+}
+
+.btn-yellow{
+    background-color: #EEC34B;
+    font-weight: bold;
+}
+
+.text-yellow{
+    color: #EEC34B;
+}
+
+input{
+    border: 2px solid #EEC34B !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.bg-lightgray{
+    background-color: #e3e3e3;
+}
+
+.vertical-center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
